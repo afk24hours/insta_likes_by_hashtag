@@ -4,9 +4,9 @@ from selenium import webdriver
 from selenium.webdriver.common import keys
 from selenium.webdriver.common.by import By
 
-#username = input('Please enter your login\n')
-#password = input('Please enter your password\n')
-#hashtag = input('Please enter the hashtag you want to like\n')
+username = input('Please enter your login\n')
+password = input('Please enter your password\n')
+hashtag = input('Please enter the hashtag you want to like\n')
 
 sleep(2)
 

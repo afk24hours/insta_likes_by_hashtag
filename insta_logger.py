@@ -8,10 +8,6 @@ from selenium.webdriver.common.by import By
 #password = input('Please enter your password\n')
 #hashtag = input('Please enter the hashtag you want to like\n')
 
-username = 'this_is_fake_page_xaxa'
-password = 'concerto'
-hashtag = 'testapp'
-
 sleep(2)
 
 browser = webdriver.Firefox(executable_path="C:/Users/ASUS/Downloads/geckodriver.exe")

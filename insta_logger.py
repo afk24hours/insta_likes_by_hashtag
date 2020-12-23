@@ -10,7 +10,7 @@ hashtag = input('Please enter the hashtag you want to like\n')
 
 sleep(2)
 
-browser = webdriver.Firefox(executable_path="C:/Users/ASUS/Downloads/geckodriver.exe")
+browser = webdriver.Firefox(executable_path="***(some dir with geckodriver)***/geckodriver.exe")
 browser.get('http://instagram.com')
 
 accept_button = browser.find_element_by_class_name("aOOlW ").click()

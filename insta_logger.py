@@ -59,38 +59,4 @@ sleep(4)
 
 username_input = browser.find_element_by_css_selector("a._65Bje.coreSpriteRightPaginationArrow").click()
 
-sleep(5)
-
-username_input = browser.find_element_by_xpath('//span//button//div//span').click()
-
-sleep(4)
-
-username_input = browser.find_element_by_css_selector("a._65Bje.coreSpriteRightPaginationArrow").click()
-
-sleep(5)
-
-username_input = browser.find_element_by_xpath('//span//button//div//span').click()
-
-sleep(4)
-
-username_input = browser.find_element_by_css_selector("a._65Bje.coreSpriteRightPaginationArrow").click()
-
-sleep(5)
-
-username_input = browser.find_element_by_xpath('//span//button//div//span').click()
-
-sleep(4)
-
-username_input = browser.find_element_by_css_selector("a._65Bje.coreSpriteRightPaginationArrow").click()
-
-sleep(5)
-
-username_input = browser.find_element_by_xpath('//span//button//div//span').click()
-
-sleep(4)
-
-username_input = browser.find_element_by_css_selector("a._65Bje.coreSpriteRightPaginationArrow").click()
-
-sleep(2)
-
-#browser.close() 
+browser.close() 
